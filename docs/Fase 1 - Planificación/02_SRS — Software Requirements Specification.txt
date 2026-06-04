@@ -1,0 +1,175 @@
+Requisitos del Software
+
+
+1. Introducción
+
+Objetivo del documento:
+
+Definir los requisitos funcionales y técnicos del software que compondrá la aplicación web.
+
+
+
+2. Arquitectura general del sistema
+
+La aplicación utilizará una arquitectura separada:
+
+frontend independiente
+backend independiente
+comunicación mediante API REST
+
+
+
+3. Stack tecnológico
+
+Frontend:
+HTML
+CSS
+JavaScript
+React
+
+Backend:
+Python
+Django
+
+Base de datos:
+MySQL
+
+
+
+4. Metodología de desarrollo
+
+El proyecto seguirá una metodología Agile basada en desarrollo iterativo e incremental.
+
+La aplicación evolucionará mediante pequeñas versiones funcionales (MVP y futuras iteraciones), 
+permitiendo añadir mejoras progresivamente según las necesidades del proyecto y el feedback recibido.
+
+
+
+5. Funcionalidades del MVP
+
+Funcionalidades principales:
+
+mostrar listado de bares
+filtrar bares por zona
+filtrar bares por categoría
+visualizar ficha individual
+mostrar imágenes
+navegación responsive móvil
+
+
+
+6. Información de cada bar
+
+Cada bar deberá contener:
+
+nombre
+descripción
+categoría
+zona
+dirección
+imagen
+especialidad
+
+
+
+7. Funcionalidades NO incluidas en el MVP
+
+Estas funcionalidades quedan fuera de la primera versión:
+
+IA
+chatbot
+login usuarios
+favoritos
+monetización
+API de reseñas
+recomendaciones inteligentes
+aplicación móvil
+
+
+
+8. Requisitos funcionales
+
+RF-01
+
+El sistema deberá mostrar una lista de bares.
+
+RF-02
+
+El sistema deberá permitir filtrar bares por zona.
+
+RF-03
+
+El sistema deberá permitir filtrar bares por categoría.
+
+RF-04
+
+El sistema deberá mostrar imágenes de cada bar.
+
+RF-05
+
+El sistema deberá funcionar correctamente desde dispositivos móviles.
+
+RF-06
+
+El sistema deberá mostrar una ficha individual de cada bar.
+
+
+
+9. Requisitos no funcionales
+
+RNF-01 — Rendimiento
+
+La aplicación debe cargar rápidamente.
+
+RNF-02 — Usabilidad
+
+La navegación debe ser simple e intuitiva.
+
+RNF-03 — Responsive
+
+La aplicación debe adaptarse correctamente a móviles.
+
+RNF-04 — Escalabilidad
+
+La estructura debe permitir añadir futuras funcionalidades.
+
+RNF-05 — Mantenimiento
+
+El código deberá estar organizado y ser fácil de mantener.
+
+
+
+10. Estructura inicial de base de datos
+
+Tabla: bares
+
+id_bar
+nombre
+descripcion
+categoria
+zona
+direccion
+imagen
+especialidad
+
+
+
+11. APIs futuras previstas
+
+En futuras versiones podrán añadirse:
+
+APIs de mapas
+APIs de reseñas
+IA conversacional
+Agentes (publicación en redes sociales de ofertas etc..)
+sistemas de recomendación
+
+
+
+12. Objetivos técnicos del proyecto
+
+aprender arquitectura full stack
+trabajar con React y Django
+practicar APIs REST
+practicar despliegue real
+desarrollar un proyecto escalable

@@ -1,0 +1,158 @@
+1. Introducción
+
+Objetivo del documento:
+
+Definir las necesidades y objetivos de los usuarios que utilizarán la aplicación web de bares de Sevilla.
+
+
+
+2. Visión general del proyecto
+
+La aplicación tendrá como objetivo ayudar a los usuarios a descubrir bares de Sevilla de manera rápida, visual e intuitiva.
+
+La plataforma estará centrada principalmente en:
+
+búsqueda rápida
+descubrimiento de bares
+navegación sencilla
+experiencia móvil
+organización por zonas y categorías
+
+
+
+3. Problema que resuelve
+
+Actualmente en Sevilla existen muchísimos bares y los usuarios muchas veces:
+
+no saben cuál elegir
+terminan yendo siempre a los mismos sitios
+desconocen bares nuevos
+no conocen especialidades de cada bar
+pierden tiempo buscando recomendaciones
+
+La aplicación pretende simplificar esta decisión.
+
+
+
+4. Público objetivo
+
+Usuarios principales: 
+
+personas de Sevilla
+turistas
+jóvenes
+grupos de amigos
+personas que salen de tapas
+aficionados al fútbol local
+
+
+
+5. Objetivos del usuario
+
+El usuario deberá poder:
+
+encontrar bares rápidamente
+descubrir bares nuevos
+buscar bares por zona
+buscar bares por categoría
+visualizar imágenes del bar
+conocer especialidades
+usar la aplicación cómodamente desde móvil
+
+
+
+6. Experiencia de usuario (UX)
+
+Objetivo principal UX
+
+El usuario debe poder encontrar un bar en menos de 1 minuto.
+
+Diseño deseado
+
+La aplicación debe transmitir:
+
+rapidez
+limpieza visual
+sencillez
+modernidad
+facilidad de navegación
+comodidad en móvil
+
+
+
+7. Funcionalidades visibles para el usuario
+
+Funcionalidades MVP:
+
+listado de bares
+filtros por zona
+filtros por categoría
+ficha básica del bar
+imágenes
+diseño responsive
+
+
+
+8. Zonas iniciales del MVP
+
+Posibles zonas:
+
+Triana
+Nervión
+Centro
+Los Remedios
+
+
+
+9. Categorías iniciales
+
+bares de tapas
+cervecerías
+bares de vinos
+bares de copas
+restaurantes
+bares de carne
+bares de cócteles
+bares de sangría
+bares económicos
+bares italianos
+bares de sushi
+pizzerías
+hamburgueserías
+kebabs
+
+
+
+10. Objetivos del MVP
+
+Objetivo principal:
+
+Lanzar una primera versión funcional y usable de la aplicación.
+
+Objetivos secundarios:
+
+mejorar conocimientos full stack
+crear portfolio real
+conseguir usuarios reales
+aprender despliegue
+aprender mantenimiento
+obtener métricas reales de tráfico
+
+
+
+11. Objetivos futuros
+
+Medio plazo:
+
+conseguir tráfico desde TikTok
+aumentar cantidad de bares
+mejorar posicionamiento SEO
+
+Largo plazo:
+
+monetización
+colaboración con bares
+aplicación móvil
+IA
+recomendaciones inteligentes
+chatbot

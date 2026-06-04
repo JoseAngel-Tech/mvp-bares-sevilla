@@ -1,0 +1,129 @@
+Requisitos del Sistema
+
+
+
+1. Introducción
+
+Objetivo del documento
+
+Definir los requisitos de infraestructura, herramientas y entorno necesarios para el desarrollo y despliegue del proyecto.
+
+
+
+2. Herramientas de desarrollo
+
+Editor de código:
+Visual Studio Code
+
+Control de versiones:
+Git
+
+Repositorio:
+GitHub
+
+Gestión base de datos:
+MySQL Workbench
+
+
+
+3. Entorno de desarrollo
+
+Backend:
+Python
+Django
+
+Frontend:
+HTML
+CSS
+React
+Node.js
+
+Base de datos:
+MySQL
+
+
+
+4. Compatibilidad del sistema
+
+La aplicación deberá funcionar correctamente en:
+
+Google Chrome
+Microsoft Edge
+Mozilla Firefox
+
+
+
+5. Compatibilidad móvil
+
+La aplicación deberá visualizarse correctamente en:
+
+Android
+iPhone
+tablets
+
+
+
+6. Hosting y despliegue
+
+Objetivos futuros de despliegue
+publicar aplicación online
+dominio propio
+base de datos online
+despliegue accesible desde móvil
+
+
+
+7. Objetivos de mantenimiento
+
+La aplicación deberá permitir:
+
+añadir nuevos bares fácilmente
+añadir nuevas categorías
+ampliar funcionalidades
+mantener estructura escalable
+
+
+
+8. Estrategia de crecimiento
+
+Corto plazo:
+terminar MVP
+publicar web
+enseñar proyecto en entrevistas
+
+Medio plazo:
+conseguir tráfico desde TikTok
+mejorar SEO
+aumentar contenido
+
+Largo plazo:
+monetización
+IA
+chatbot
+aplicación móvil
+colaboración con bares
+
+
+
+9. Filosofía del proyecto
+
+Principios principales
+empezar simple
+publicar rápido
+mejorar progresivamente
+evitar sobrecarga de funcionalidades
+construir una base sólida y escalable
+
+
+
+10. Resultado esperado de la fase 1
+
+Al finalizar la fase de análisis y planificación deberá quedar definido:
+
+problema que resuelve la aplicación
+público objetivo
+MVP inicial
+tecnologías utilizadas
+estructura técnica inicial
+objetivos futuros
+estrategia de crecimiento

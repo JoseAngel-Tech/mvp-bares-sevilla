@@ -1,0 +1,19 @@
+# CHANGELOG
+
+## [1.1.1]
+### Fixed
+- Error en filtros móviles
+- Corrección visual en tarjetas
+
+---
+
+## [1.1.0]
+### Added
+- Nuevas categorías
+- Mejoras responsive
+
+---
+
+## [1.0.0]
+### Initial Release
+- MVP inicial publicado

@@ -1,0 +1,74 @@
+🔧 In Progress
+
+Sprint 3 — App bares + modelo de datos
+
+crear app bares
+registrar app en INSTALLED_APPS
+crear modelo Bar
+preparar migraciones propias
+
+
+
+
+
+
+
+📋 Backlog (To Do)
+
+
+Sprint 4 — API backend (Django REST)
+crear endpoints REST
+listar bares
+filtros por zona y categoría
+
+Sprint 5 — Frontend React
+crear proyecto React
+estructura frontend
+primeras pantallas
+
+Sprint 6 — Integración + Deploy
+conectar React con API
+mostrar datos reales
+GitHub final
+despliegue online
+
+
+
+
+
+
+💡 Ideas/Future
+
+# explorar uso de MCP y agentes IA para automatizar desarrollo y documentación
+
+
+# Skills system (IA enhancement layer)
+
+definir skills de frontend
+definir skills de backend
+definir skills de testing
+posible integración futura con IA
+
+
+
+
+
+
+
+📊 Done
+
+Sprint 1 — Setup backend base
+crear entorno virtual (venv)
+instalar Django
+crear proyecto Django (startproject config)
+ejecutar servidor correctamente
+
+
+
+Sprint 2 — Base de datos + configuración backend
+conectar Django con MySQL
+instalar mysqlclient / configurar driver MySQL
+crear base de datos bares_sevilla
+configurar DATABASES en settings.py
+ejecutar migraciones iniciales correctamente
+sistema Django funcionando con MySQL
