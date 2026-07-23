@@ -3,25 +3,43 @@ from django.db import models
 
 class Bar(models.Model):
 
-    # Información principal
-    nombre = models.CharField(max_length=120)
+    nombre = models.CharField(max_length=100)
+
     slug = models.SlugField(
     unique=True,
-    null=True,
-    blank=True
+    blank=True,
+    null=True
 )
 
-    descripcion_corta = models.CharField(max_length=200)
-    historia = models.TextField(blank=True)
 
-    # Ubicación
-    localidad = models.CharField(max_length=100, default="Sevilla")
-    zona = models.CharField(max_length=100)
-    subzona = models.CharField(max_length=100, blank=True)
+    descripcion = models.TextField(
+        blank=True
+    )
 
-    direccion = models.CharField(max_length=200)
+    historia = models.TextField(
+        blank=True
+    )
 
-    # Coordenadas (preparado para mapa futuro)
+
+    localidad = models.CharField(
+        max_length=100
+    )
+
+    zona = models.CharField(
+        max_length=100
+    )
+
+    subzona = models.CharField(
+        max_length=100,
+        blank=True
+    )
+
+
+    direccion = models.CharField(
+        max_length=200
+    )
+
+
     latitud = models.DecimalField(
         max_digits=9,
         decimal_places=6,
@@ -36,38 +54,64 @@ class Bar(models.Model):
         blank=True
     )
 
-    # Clasificación
-    categoria = models.CharField(max_length=100)
 
-    caracteristicas = models.CharField(
-        max_length=250,
+    categoria = models.CharField(
+        max_length=100
+    )
+
+
+    caracteristicas = models.TextField(
         blank=True
     )
 
-    # Información práctica
+    especialidades = models.TextField(
+        blank=True
+    )
+
+
+    ambiente = models.CharField(
+        max_length=100,
+        blank=True
+    )
+
+    ideal_para = models.CharField(
+        max_length=200,
+        blank=True
+    )
+
+    precio_medio = models.CharField(
+        max_length=50,
+        blank=True
+    )
+
+
     telefono = models.CharField(
         max_length=20,
         blank=True
     )
 
+
     horario = models.TextField(
         blank=True
     )
 
-    # Multimedia
+
     imagen_url = models.URLField(
         blank=True
     )
 
-    # Valoraciones
-    valoracion_media = models.FloatField(default=0)
 
-    numero_valoraciones = models.IntegerField(default=0)
-
-    # Metadatos
-    fecha_creacion = models.DateTimeField(
-        auto_now_add=True
+    valoracion_media = models.DecimalField(
+        max_digits=3,
+        decimal_places=1,
+        default=0
     )
+
+
+    numero_valoraciones = models.IntegerField(
+        default=0
+    )
+
 
     fecha_actualizacion = models.DateTimeField(
         auto_now=True
