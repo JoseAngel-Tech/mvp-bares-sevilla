@@ -1,136 +1,271 @@
-🤖 AGENTS.md — MVP Bares de Sevilla
+# AGENTS.md — MVP Bares de Sevilla
 
+## 1. Contexto del proyecto
 
-📌 Objetivo del proyecto
+Este proyecto tiene como objetivo construir un MVP de una aplicación web para descubrir bares de Sevilla.
 
-El objetivo es construir un MVP simple, rápido y funcional para descubrir bares en Sevilla por zonas y categorías.
+La aplicación permitirá encontrar establecimientos mediante:
 
-La prioridad NO es crear una plataforma compleja, sino validar una idea real de negocio con una experiencia clara y sencilla.
+- zonas
+- categorías
+- características
+- información práctica del establecimiento
 
+El objetivo inicial es validar una idea de negocio mediante un producto funcional, sencillo y mantenible.
 
-🧠 Filosofía del desarrollo
+La prioridad es terminar una base sólida antes de añadir funcionalidades avanzadas.
 
-Priorizar simplicidad antes que sobreingeniería
-Código fácil de mantener
-Arquitectura limpia y escalable
-Evitar complejidad innecesaria en fases iniciales
-Construir primero lo esencial del MVP
 
+---
 
+# 2. Objetivo actual del proyecto
 
-🎯 Experiencia de usuario deseada
+La prioridad actual es completar el MVP.
 
-La aplicación debe sentirse:
+Orden de prioridades:
 
-rápida
-simple
-moderna
-intuitiva
+1. Backend estable.
+2. Modelo de datos correcto.
+3. API REST funcional.
+4. Frontend funcional.
+5. Integración completa.
+6. Deploy inicial.
 
-El usuario debe poder encontrar bares rápidamente sin demasiados clics ni pantallas complejas.
 
+No añadir funcionalidades fuera del MVP hasta completar esta fase.
 
 
+---
 
-🧱 Arquitectura general
+# 3. Arquitectura del sistema
 
-El sistema se basa en una separación clara de capas:
+La aplicación utiliza una arquitectura separada por capas.
 
-Frontend independiente (React)
-Backend API (Django)
-Base de datos (MySQL)
 
-No se permite mezclar responsabilidades entre capas.
+## Frontend
 
+Tecnología:
 
+- React
 
+Responsabilidades:
 
-🚫 Restricciones importantes
-No usar SQLite en producción del MVP
-No mezclar frontend y backend
-No añadir funcionalidades complejas antes de terminar el MVP
-No introducir IA avanzada en fases tempranas
-No sobre-optimizar ni anticipar escalabilidad innecesaria
+- interfaz visual
+- experiencia de usuario
+- navegación
+- filtros visuales
+- consumo de API REST
 
 
+---
 
-🔒 Seguridad
-Validar siempre inputs del usuario
-No guardar contraseñas en texto plano
-Mantener variables sensibles fuera del código
-Preparar el backend pensando en futura autenticación
+## Backend
 
+Tecnologías:
 
+- Python
+- Django
+- Django REST Framework
 
-🔄 Forma de trabajo
+Responsabilidades:
 
-El proyecto se desarrolla con metodología Agile:
+- lógica de negocio
+- gestión de datos
+- API REST
+- validaciones
 
-trabajo por sprints
-iteración constante
-backlog flexible
-documentación ligera pero útil
 
-Cada sprint debe tener un objetivo funcional entregable.
+---
 
+## Base de datos
 
+Tecnología:
 
+- MySQL
 
-🤖 Uso de IA
+Responsabilidad:
 
-La IA se usa como apoyo técnico y arquitectónico, no como sustitución del razonamiento humano.
+- almacenamiento persistente de información
 
-Flujo habitual:
 
-Planificación y arquitectura con ChatGPT
-Implementación en VS Code con herramienta de asistencia de código
-Revisión manual del código
-Documentación del avance
+---
 
+# 4. Principios de desarrollo
 
+Durante el desarrollo seguir estas reglas:
 
-🧩 Sistema de Skills (futuro)
+- Priorizar simplicidad antes que complejidad.
+- Evitar sobreingeniería.
+- Mantener código limpio y mantenible.
+- Respetar separación de responsabilidades.
+- Crear únicamente funcionalidades necesarias.
+- Documentar cambios importantes.
 
-En fases posteriores del proyecto se podrá introducir una capa de “skills” para estandarizar tareas repetitivas de desarrollo.
 
-Las skills serán:
+---
 
-instrucciones reutilizables para tareas concretas (frontend, backend, testing)
-guías operativas para consistencia en el desarrollo
-apoyo a la generación de código estructurado
+# 5. Restricciones importantes
 
-No forman parte del MVP actual y no deben implementarse todavía.
+No realizar antes de finalizar el MVP:
 
+- IA avanzada.
+- Sistemas multiagente.
+- Automatizaciones complejas.
+- Arquitecturas innecesarias.
+- Optimización prematura.
 
 
+No utilizar:
 
-📌 Prioridades actuales
+- SQLite como base de datos final.
+- Mezcla entre frontend y backend.
+- Código sin revisar.
 
-Prioridad absoluta:
 
-Backend estable
-Modelo de datos sólido
-API funcional
-Frontend mínimo viable
+---
 
-Todo lo demás queda para fases posteriores.
+# 6. Metodología de trabajo
 
+El proyecto utiliza metodología Agile.
 
+Elementos:
 
+- Sprints.
+- Backlog.
+- Daily Log.
+- Sprint Review.
+- Retrospectivas.
 
-📄 Estilo de documentación
 
-No utilizar emojis ni iconos decorativos en documentación técnica o en código
-Usar únicamente estructura Markdown clara
-Mantener estilo profesional orientado a entorno de empresa
-Evitar contenido que parezca generado automáticamente
-Priorizar claridad sobre estética visual
+Cada sprint debe tener:
 
+- objetivo definido;
+- tareas concretas;
+- resultado funcional.
 
 
+El estado del proyecto debe mantenerse actualizado en el Agile Daily Log.
 
 
+---
 
+# 7. Reglas para modificar código
 
+Antes de realizar cambios importantes:
 
+1. Analizar la estructura existente.
+2. Revisar documentación relacionada.
+3. Explicar la solución propuesta.
+4. Implementar el cambio.
+5. Validar funcionamiento.
 
+
+Cambios específicos:
+
+
+## Django Models
+
+Siempre:
+
+- modificar models.py;
+- ejecutar makemigrations;
+- ejecutar migrate;
+- comprobar base de datos.
+
+
+## API REST
+
+Actualizar:
+
+- serializers;
+- views;
+- endpoints;
+- documentación.
+
+
+## Nuevas funcionalidades
+
+Actualizar:
+
+- Daily Log.
+- Documentación correspondiente.
+- Changelog cuando exista una nueva versión.
+
+
+---
+
+# 8. Seguridad
+
+Aplicar buenas prácticas:
+
+- Variables sensibles en archivos .env.
+- No subir claves privadas a GitHub.
+- Validar datos recibidos.
+- Preparar futura autenticación.
+- No almacenar información sensible sin protección.
+
+
+---
+
+# 9. Uso de Inteligencia Artificial
+
+La IA funciona como asistente técnico.
+
+Puede ayudar en:
+
+- análisis;
+- arquitectura;
+- explicación de código;
+- generación de código;
+- documentación.
+
+
+Flujo recomendado:
+
+1. Comprender problema.
+2. Diseñar solución.
+3. Revisar propuesta.
+4. Implementar.
+5. Probar.
+6. Documentar.
+
+
+La decisión final siempre pertenece al desarrollador.
+
+
+---
+
+# 10. Uso futuro de agentes IA
+
+Los agentes, MCP y Skills podrán incorporarse en fases posteriores.
+
+
+Posibles usos:
+
+- automatización de tareas;
+- generación de contenido;
+- análisis de datos;
+- recomendaciones inteligentes;
+- mantenimiento.
+
+
+No forman parte del MVP actual.
+
+
+---
+
+# 11. Estilo de trabajo
+
+Mantener:
+
+- código limpio;
+- documentación profesional;
+- Markdown claro;
+- nombres descriptivos.
+
+
+Evitar:
+
+- contenido innecesario;
+- duplicidad de documentación;
+- soluciones complejas sin necesidad.

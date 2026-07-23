@@ -1,74 +1,337 @@
-🔧 In Progress
+🔧 ETAPA 1 — CONSTRUCCIÓN DEL MVP
 
-Sprint 3 — App bares + modelo de datos
+──────────────────────────────────────────────
 
-crear app bares
-registrar app en INSTALLED_APPS
-crear modelo Bar
-preparar migraciones propias
+🔄 In Progress
+
+Sprint 3 — Modelo de datos
+
+✅ Crear app "bares"
+✅ Registrar app en INSTALLED_APPS
+✅ Crear modelo Bar (ORM Django)
+✅ Rediseño completo del modelo de datos
+✅ Sistema de migraciones Django aplicado correctamente
+✅ Sincronización ORM ↔ MySQL
+✅ Configuración Django Admin
+✅ Ampliación del modelo Bar para necesidades futuras
+✅ Añadidos nuevos campos del modelo:
+    - imagen_url
+    - caracteristicas
+    - fecha_actualizacion
+    - horario
+    - latitud
+    - longitud
+    - localidad
+    - numero_valoraciones
+    - slug
+
+Pendiente para cerrar Sprint 3:
+
+- Commit final Sprint 3
 
 
+──────────────────────────────────────────────
 
+📋 Backlog
 
+Sprint 4 — API Backend (Django REST)
 
+- Cargar bares de prueba
+- Validar datos reales desde Django Admin
+- Instalar Django REST Framework
+- Crear Serializer de Bar
+- Crear View del listado de bares
+- Crear View detalle de bar
+- Configurar URLs API
+- Endpoint listado
+- Endpoint detalle
+- Filtro por zona
+- Filtro por subzona
+- Filtro por categoría
+- Probar API (Postman / navegador)
 
-
-📋 Backlog (To Do)
-
-
-Sprint 4 — API backend (Django REST)
-crear endpoints REST
-listar bares
-filtros por zona y categoría
 
 Sprint 5 — Frontend React
-crear proyecto React
-estructura frontend
-primeras pantallas
+
+- Crear proyecto React
+- Estructura base del frontend
+- Organización de componentes
+- Conectar React con API Django
+- Listado de bares
+- Página detalle
+- Filtros visuales
+
 
 Sprint 6 — Integración + Deploy
-conectar React con API
-mostrar datos reales
-GitHub final
-despliegue online
+
+- Conectar React ↔ Django REST
+- Mostrar datos reales
+- Despliegue backend
+- Despliegue frontend
+- Revisión completa GitHub
+- README profesional
+- Cierre MVP
+
+
+──────────────────────────────────────────────
+
+🚀 ETAPA 2 — INGENIERÍA DE SOFTWARE ASISTIDA POR IA
+
+Objetivo:
+
+Introducir progresivamente herramientas avanzadas de IA después de completar una base sólida del MVP.
+
+
+Sprint IA-1
+
+- Evolucionar AGENTS.md
+- Definir guardarraíles avanzados
+- Crear convenciones reutilizables
+
+
+Sprint IA-2
+
+- Crear Skills
+- Backend Skill
+- Frontend Skill
+- Testing Skill
+
+
+Sprint IA-3
+
+- Integrar Context7
+- Primeros MCP
+
+
+Sprint IA-4
+
+- Primer agente especializado
+- Automatización de documentación
+- Automatización de tareas repetitivas
+
+
+Sprint IA-5
+
+- Flujo de trabajo con Claude Code / OpenCode
+- Desarrollo asistido desde terminal
+
+
+Sprint IA-6
+
+- Desarrollo de nuevas funcionalidades utilizando agentes IA
+
+
+──────────────────────────────────────────────
+
+🚀 ETAPA 3 — EVOLUCIÓN FUNCIONAL
+
+Sprint 7
+
+Sistema de usuarios
+
+
+Sprint 8
+
+Favoritos
+
+
+Sprint 9
+
+Panel propietarios
+
+
+Sprint 10
+
+Google Maps
+
+
+Sprint 11
+
+Valoraciones
+
+
+Sprint 12
+
+Recomendaciones inteligentes
+
+
+──────────────────────────────────────────────
+
+🚀 ETAPA 4 — PRODUCCIÓN
+
+Sprint PROD-1
+
+- Nginx
+- Reverse Proxy
+
+
+Sprint PROD-2
+
+- HTTPS
+- SSL
+- Seguridad básica
+
+
+Sprint PROD-3
+
+- Backups
+- Monitorización
+
+
+Sprint PROD-4
+
+- GitHub Actions
+- CI/CD
+- Deploy automático
+
+
+──────────────────────────────────────────────
+
+🚀 ETAPA 5 — ESCALABILIDAD
+
+Sprint SCALE-1
+
+- Optimización consultas
+- Índices MySQL
+
+
+Sprint SCALE-2
+
+- Caché
+- Redis
+
+
+Sprint SCALE-3
+
+- Balanceadores de carga
+- Observabilidad
+
+
+Sprint SCALE-4
+
+- Optimización de infraestructura
+
+
+──────────────────────────────────────────────
+
+🚀 ETAPA 6 — INGENIERÍA AUTÓNOMA
+
+Sprint AI-Advanced-1
+
+- Subagentes
+
+
+Sprint AI-Advanced-2
+
+- Multiagentes
+
+
+Sprint AI-Advanced-3
+
+- Loop Engineering
+
+
+Sprint AI-Advanced-4
+
+- Automatización avanzada del desarrollo
+
+
+──────────────────────────────────────────────
+
+💡 Ideas / Investigación futura
+
+Arquitectura
+
+- Fuentes de datos externas:
+    - Google Maps
+    - TripAdvisor
+    - APIs de geolocalización
+
+- Arquitectura del sistema
+- Flujo de información
+- Integraciones externas
+
+
+Usuarios y permisos
+
+Roles:
+
+- Visitante
+- Usuario registrado
+- Dueño de bar
+- Administrador
+
+
+Funcionalidades futuras:
+
+- Reclamar bar
+- Registrar bar
+- Valoraciones
+- Favoritos
+
+
+Permisos:
+
+- Horarios
+- Teléfonos
+- Imágenes
+- Descripciones
+
+
+Calidad:
+
+- Unit Testing
+- Integration Testing
+- API Testing
+- Frontend Testing
+
+
+Mejora continua:
+
+- Pseudocódigo antes de implementar lógica compleja
+- Diagramas de flujo cuando aporten valor
+- Mantener arquitectura limpia
+- Mantener documentación actualizada
+
+
+Documentación del proyecto:
+
+✅ AGENTS.md creado
+
+Objetivo:
+Definir reglas de trabajo para IA dentro del proyecto.
+
+
+✅ Engineering Playbook creado
+
+Objetivo:
+Definir metodología, organización y evolución del proyecto.
+
+
+──────────────────────────────────────────────
+
+✅ Done
+
+Sprint 1 — Setup Backend
+
+✅ Crear entorno virtual
+✅ Instalar Django
+✅ Crear proyecto Django
+✅ Ejecutar servidor
+✅ Configurar Git
+✅ Crear repositorio GitHub
+
+
+Sprint 2 — Base de Datos
+
+✅ Configurar MySQL
+✅ Crear base de datos
+✅ Configurar DATABASES
+✅ Conectar Django ↔ MySQL
+✅ Migraciones iniciales
+✅ Backend funcionando correctamente
 
 
 
 
-
-
-💡 Ideas/Future
-
-# explorar uso de MCP y agentes IA para automatizar desarrollo y documentación
-
-
-# Skills system (IA enhancement layer)
-
-definir skills de frontend
-definir skills de backend
-definir skills de testing
-posible integración futura con IA
-
-
-
-
-
-
-
-📊 Done
-
-Sprint 1 — Setup backend base
-crear entorno virtual (venv)
-instalar Django
-crear proyecto Django (startproject config)
-ejecutar servidor correctamente
-
-
-
-Sprint 2 — Base de datos + configuración backend
-conectar Django con MySQL
-instalar mysqlclient / configurar driver MySQL
-crear base de datos bares_sevilla
-configurar DATABASES en settings.py
-ejecutar migraciones iniciales correctamente
-sistema Django funcionando con MySQL
+.\venv\Scripts\Activate.ps1

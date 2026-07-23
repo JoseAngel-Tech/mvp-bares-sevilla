@@ -1,19 +1,18 @@
 # CHANGELOG
 
-## [1.1.1]
-### Fixed
-- Error en filtros móviles
-- Corrección visual en tarjetas
+Todos los cambios importantes de este proyecto se documentarán en este archivo.
 
----
+El formato sigue Semantic Versioning (SemVer).
 
-## [1.1.0]
+## [Unreleased]
+
 ### Added
-- Nuevas categorías
-- Mejoras responsive
 
----
-
-## [1.0.0]
-### Initial Release
-- MVP inicial publicado
+- Configuración inicial del proyecto Django.
+- Integración con MySQL.
+- Creación de la aplicación `bares`.
+- Modelo inicial `Bar`.
+- Configuración de Django Admin.
+- Sistema de migraciones.
+- Rediseño del modelo de datos.
+- Preparación del backend para Django REST Framework.
