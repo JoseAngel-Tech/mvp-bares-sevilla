@@ -1,3 +1,9 @@
-from django.shortcuts import render
+from rest_framework import viewsets
 
-# Create your views here.
+from .models import Bar
+from .serializers import BarSerializer
+
+
+class BarViewSet(viewsets.ModelViewSet):
+    queryset = Bar.objects.all()
+    serializer_class = BarSerializer
