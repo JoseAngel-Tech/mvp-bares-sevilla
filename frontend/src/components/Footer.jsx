@@ -1,7 +1,7 @@
 function Footer() {
   return (
-    <footer>
-      <p>© 2026 MVP Bares de Sevilla</p>
+    <footer className="footer">
+      <p>© 2026 SevillaPlan</p>
     </footer>
   );
 }

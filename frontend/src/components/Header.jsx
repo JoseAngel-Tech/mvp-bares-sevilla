@@ -1,7 +1,7 @@
 function Header() {
   return (
-    <header>
-      <h2>MVP Bares de Sevilla</h2>
+    <header className="header">
+      <h2>SevillaPlan</h2>
     </header>
   );
 }

@@ -8,7 +8,7 @@ Sprint 5 — Frontend React
 
 Objetivo:
 
-Crear la interfaz web del MVP y conectar React con la API REST desarrollada en Django.
+Crear la interfaz web del MVP SevillaPlan y conectar React con la API REST desarrollada en Django.
 
 
 Completado:
@@ -19,13 +19,34 @@ Completado:
 ✅ Crear estructura inicial del frontend
 ✅ Configurar punto de entrada main.jsx
 ✅ Crear componente inicial App.jsx
+✅ Crear arquitectura base de componentes:
+
+   - Header
+   - Footer
+   - MainLayout
+   - Home
+
+✅ Crear estructura escalable frontend:
+
+   - components
+   - layouts
+   - pages
+   - services
+   - hooks
+   - utils
+
+✅ Actualizar identidad inicial del proyecto:
+
+   - Cambio progresivo de nombre a SevillaPlan
+   - Actualización título navegador
+   - Configuración idioma HTML es-ES
+
 ✅ Verificar ejecución del servidor Vite correctamente
 
 
 En desarrollo:
 
 * Crear sistema de rutas frontend
-* Crear arquitectura de componentes
 * Crear componentes reutilizables
 * Diseñar listado de bares
 * Consumir API Django REST desde React
@@ -412,9 +433,4 @@ Construcción del frontend React.
 
 Siguiente paso:
 
-Crear arquitectura frontend y conectar React con Django REST.
-
-
-
-
-.\venv\Scripts\Activate.ps1
+Implementar navegación frontend mediante React Router.
