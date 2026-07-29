@@ -4,73 +4,77 @@
 
 🔄 In Progress
 
-Sprint 3 — Modelo de datos
+Sprint 5 — Frontend React
 
-✅ Crear app "bares"
-✅ Registrar app en INSTALLED_APPS
-✅ Crear modelo Bar (ORM Django)
-✅ Rediseño completo del modelo de datos
-✅ Sistema de migraciones Django aplicado correctamente
-✅ Sincronización ORM ↔ MySQL
-✅ Configuración Django Admin
-✅ Ampliación del modelo Bar para necesidades futuras
-✅ Añadidos nuevos campos del modelo:
-    - imagen_url
-    - caracteristicas
-    - fecha_actualizacion
-    - horario
-    - latitud
-    - longitud
-    - localidad
-    - numero_valoraciones
-    - slug
+Objetivo:
 
-Pendiente para cerrar Sprint 3:
+Crear la interfaz web del MVP y conectar React con la API REST desarrollada en Django.
 
-- Commit final Sprint 3
+
+Completado:
+
+✅ Crear proyecto frontend con Vite + React
+✅ Configurar entorno npm
+✅ Instalar dependencias frontend
+✅ Crear estructura inicial del frontend
+✅ Configurar punto de entrada main.jsx
+✅ Crear componente inicial App.jsx
+✅ Verificar ejecución del servidor Vite correctamente
+
+
+En desarrollo:
+
+* Crear sistema de rutas frontend
+* Crear arquitectura de componentes
+* Crear componentes reutilizables
+* Diseñar listado de bares
+* Consumir API Django REST desde React
+* Mostrar datos reales desde backend
+* Crear página detalle de bar
+* Implementar filtros visuales
+* Mejorar experiencia de usuario
 
 
 ──────────────────────────────────────────────
 
 📋 Backlog
 
-Sprint 4 — API Backend (Django REST)
-
-- Cargar bares de prueba
-- Validar datos reales desde Django Admin
-- Instalar Django REST Framework
-- Crear Serializer de Bar
-- Crear View del listado de bares
-- Crear View detalle de bar
-- Configurar URLs API
-- Endpoint listado
-- Endpoint detalle
-- Filtro por zona
-- Filtro por subzona
-- Filtro por categoría
-- Probar API (Postman / navegador)
-
-
-Sprint 5 — Frontend React
-
-- Crear proyecto React
-- Estructura base del frontend
-- Organización de componentes
-- Conectar React con API Django
-- Listado de bares
-- Página detalle
-- Filtros visuales
-
-
 Sprint 6 — Integración + Deploy
 
-- Conectar React ↔ Django REST
-- Mostrar datos reales
-- Despliegue backend
-- Despliegue frontend
-- Revisión completa GitHub
-- README profesional
-- Cierre MVP
+* Conectar React ↔ Django REST completamente
+* Mostrar datos reales en producción
+* Preparar configuración de despliegue
+* Deploy backend
+* Deploy frontend
+* Revisión completa GitHub
+* README profesional
+* Cierre MVP inicial
+
+
+Sprint 7 — Evolución funcional
+
+* Sistema de usuarios
+* Roles y permisos
+* Favoritos
+* Panel propietarios
+
+
+Sprint 8
+
+* Google Maps
+* Geolocalización avanzada
+
+
+Sprint 9
+
+* Sistema de valoraciones
+* Comentarios usuarios
+
+
+Sprint 10
+
+* Recomendaciones inteligentes
+* Funcionalidades con IA
 
 
 ──────────────────────────────────────────────
@@ -84,237 +88,185 @@ Introducir progresivamente herramientas avanzadas de IA después de completar un
 
 Sprint IA-1
 
-- Evolucionar AGENTS.md
-- Definir guardarraíles avanzados
-- Crear convenciones reutilizables
+* Evolucionar AGENTS.md
+* Definir guardarraíles avanzados
+* Crear convenciones reutilizables
 
 
 Sprint IA-2
 
-- Crear Skills
-- Backend Skill
-- Frontend Skill
-- Testing Skill
+* Crear Skills:
+
+  * Backend Skill
+  * Frontend Skill
+  * Testing Skill
 
 
 Sprint IA-3
 
-- Integrar Context7
-- Primeros MCP
+* Integrar Context7
+* Primeros MCP
 
 
 Sprint IA-4
 
-- Primer agente especializado
-- Automatización de documentación
-- Automatización de tareas repetitivas
+* Primer agente especializado
+* Automatización documentación
+* Automatización tareas repetitivas
 
 
 Sprint IA-5
 
-- Flujo de trabajo con Claude Code / OpenCode
-- Desarrollo asistido desde terminal
+* Flujo de trabajo con Claude Code / OpenCode
+* Desarrollo asistido desde terminal
 
 
 Sprint IA-6
 
-- Desarrollo de nuevas funcionalidades utilizando agentes IA
+* Desarrollo de nuevas funcionalidades utilizando agentes IA
 
 
 ──────────────────────────────────────────────
 
-🚀 ETAPA 3 — EVOLUCIÓN FUNCIONAL
-
-Sprint 7
-
-Sistema de usuarios
-
-
-Sprint 8
-
-Favoritos
-
-
-Sprint 9
-
-Panel propietarios
-
-
-Sprint 10
-
-Google Maps
-
-
-Sprint 11
-
-Valoraciones
-
-
-Sprint 12
-
-Recomendaciones inteligentes
-
-
-──────────────────────────────────────────────
-
-🚀 ETAPA 4 — PRODUCCIÓN
+🚀 ETAPA 3 — PRODUCCIÓN
 
 Sprint PROD-1
 
-- Nginx
-- Reverse Proxy
+* Nginx
+* Reverse Proxy
 
 
 Sprint PROD-2
 
-- HTTPS
-- SSL
-- Seguridad básica
+* HTTPS
+* SSL
+* Seguridad básica
 
 
 Sprint PROD-3
 
-- Backups
-- Monitorización
+* Backups
+* Monitorización
 
 
 Sprint PROD-4
 
-- GitHub Actions
-- CI/CD
-- Deploy automático
+* GitHub Actions
+* CI/CD
+* Deploy automático
 
 
 ──────────────────────────────────────────────
 
-🚀 ETAPA 5 — ESCALABILIDAD
+🚀 ETAPA 4 — ESCALABILIDAD
 
 Sprint SCALE-1
 
-- Optimización consultas
-- Índices MySQL
+* Optimización consultas
+* Índices MySQL
 
 
 Sprint SCALE-2
 
-- Caché
-- Redis
+* Caché
+* Redis
 
 
 Sprint SCALE-3
 
-- Balanceadores de carga
-- Observabilidad
+* Balanceadores de carga
+* Observabilidad
 
 
 Sprint SCALE-4
 
-- Optimización de infraestructura
+* Optimización infraestructura
 
 
 ──────────────────────────────────────────────
 
-🚀 ETAPA 6 — INGENIERÍA AUTÓNOMA
+🚀 ETAPA 5 — INGENIERÍA AUTÓNOMA
 
 Sprint AI-Advanced-1
 
-- Subagentes
+* Subagentes
 
 
 Sprint AI-Advanced-2
 
-- Multiagentes
+* Multiagentes
 
 
 Sprint AI-Advanced-3
 
-- Loop Engineering
+* Loop Engineering
 
 
 Sprint AI-Advanced-4
 
-- Automatización avanzada del desarrollo
+* Automatización avanzada del desarrollo
 
 
 ──────────────────────────────────────────────
 
 💡 Ideas / Investigación futura
 
-Arquitectura
 
-- Fuentes de datos externas:
-    - Google Maps
-    - TripAdvisor
-    - APIs de geolocalización
+Arquitectura:
 
-- Arquitectura del sistema
-- Flujo de información
-- Integraciones externas
+* Fuentes de datos externas:
+
+  * Google Maps
+  * TripAdvisor
+  * APIs geolocalización
+
+* Arquitectura del sistema
+* Flujo de información
+* Integraciones externas
 
 
-Usuarios y permisos
+Usuarios y permisos:
 
 Roles:
 
-- Visitante
-- Usuario registrado
-- Dueño de bar
-- Administrador
+* Visitante
+* Usuario registrado
+* Dueño de bar
+* Administrador
 
 
 Funcionalidades futuras:
 
-- Reclamar bar
-- Registrar bar
-- Valoraciones
-- Favoritos
-
-
-Permisos:
-
-- Horarios
-- Teléfonos
-- Imágenes
-- Descripciones
+* Reclamar bar
+* Registrar bar
+* Valoraciones
+* Favoritos
 
 
 Calidad:
 
-- Unit Testing
-- Integration Testing
-- API Testing
-- Frontend Testing
+* Unit Testing
+* Integration Testing
+* API Testing
+* Frontend Testing
 
 
 Mejora continua:
 
-- Pseudocódigo antes de implementar lógica compleja
-- Diagramas de flujo cuando aporten valor
-- Mantener arquitectura limpia
-- Mantener documentación actualizada
-
-
-Documentación del proyecto:
-
-✅ AGENTS.md creado
-
-Objetivo:
-Definir reglas de trabajo para IA dentro del proyecto.
-
-
-✅ Engineering Playbook creado
-
-Objetivo:
-Definir metodología, organización y evolución del proyecto.
+* Pseudocódigo antes de implementar lógica compleja
+* Diagramas de flujo cuando aporten valor
+* Mantener arquitectura limpia
+* Mantener documentación actualizada
 
 
 ──────────────────────────────────────────────
 
 ✅ Done
 
+
 Sprint 1 — Setup Backend
 
-✅ Crear entorno virtual
+✅ Crear entorno virtual Python
 ✅ Instalar Django
 ✅ Crear proyecto Django
 ✅ Ejecutar servidor
@@ -326,10 +278,141 @@ Sprint 2 — Base de Datos
 
 ✅ Configurar MySQL
 ✅ Crear base de datos
-✅ Configurar DATABASES
+✅ Configurar DATABASES Django
 ✅ Conectar Django ↔ MySQL
 ✅ Migraciones iniciales
 ✅ Backend funcionando correctamente
+
+
+Sprint 3 — Modelo de datos
+
+✅ Crear aplicación "bares"
+✅ Registrar aplicación en INSTALLED_APPS
+✅ Crear modelo Bar ORM Django
+✅ Rediseño completo del modelo de datos
+✅ Sistema de migraciones Django
+✅ Sincronización ORM ↔ Base de datos
+✅ Configuración Django Admin
+✅ Ampliación modelo Bar para necesidades futuras
+
+
+Campos añadidos:
+
+* imagen_url
+* caracteristicas
+* fecha_actualizacion
+* horario
+* latitud
+* longitud
+* localidad
+* numero_valoraciones
+* slug
+
+
+Sprint 4 — API Backend Django REST
+
+✅ Instalación Django REST Framework
+✅ Configuración Django REST Framework
+✅ Creación serializers
+
+
+Implementado:
+
+* BarListSerializer
+* BarDetailSerializer
+
+
+✅ Creación ViewSet REST
+
+
+Implementado:
+
+* CRUD completo mediante ModelViewSet
+* Listado de bares
+* Detalle de bares
+* Creación de bares
+* Actualización de bares
+* Eliminación de bares
+
+
+✅ Configuración URLs API
+
+
+Endpoints preparados:
+
+* /api/
+
+
+✅ Sistema de filtrado:
+
+* localidad
+* zona
+* categoría
+
+
+✅ Sistema de búsqueda:
+
+* nombre
+* descripción
+* historia
+* especialidades
+
+
+✅ Sistema de ordenación:
+
+* valoración media
+* número valoraciones
+* fecha actualización
+
+
+✅ Documentación automática API:
+
+* OpenAPI Schema
+* Swagger UI
+
+
+──────────────────────────────────────────────
+
+📚 Documentación del proyecto
+
+
+✅ AGENTS.md creado
+
+Objetivo:
+
+Definir reglas de trabajo con IA dentro del proyecto.
+
+
+✅ Engineering Playbook creado
+
+Objetivo:
+
+Definir metodología, organización y evolución del desarrollo.
+
+
+──────────────────────────────────────────────
+
+📌 Estado actual:
+
+
+Sprint actual:
+
+Sprint 5 — Frontend React
+
+
+Último objetivo completado:
+
+Sprint 4 — API REST Backend Django completamente funcional.
+
+
+Objetivo actual:
+
+Construcción del frontend React.
+
+
+Siguiente paso:
+
+Crear arquitectura frontend y conectar React con Django REST.
 
 
 
